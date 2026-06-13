@@ -1,59 +1,63 @@
 # 👋 Hola, soy Belen
 
-Soy **Packaged App Development Associate en Accenture** con 3 años de experiencia 
-en entornos Oracle (SQL, PL/SQL). Actualmente en transición hacia **Data Engineering**, 
-especializándome en Python, Big Data e Inteligencia Artificial.
+**Packaged App Development Associate** con 4 años de experiencia en 
+entornos Oracle (SQL, PL/SQL, APEX, Forms & Reports), actualmente en transición hacia **Data Engineering**.
+
+Este repositorio es mi **diario de aprendizaje y portfolio en construcción**: aquí 
+documento tanto los proyectos que voy montando como los ejercicios con los que 
+practico cada tecnología. Trabajo en ello de forma constante mientras me especializo 
+en Python, Big Data e Inteligencia Artificial.
 
 ---
 
-## 🚀 Data Engineering — Python + PostgreSQL + Docker
+## 🗂️ Estructura del repositorio
 
-Pipeline de datos con Python conectado a PostgreSQL corriendo en Docker, 
-simulando un entorno de datos empresarial real.
+### 📦 Proyectos
+**ETL — Python + PostgreSQL + Docker**  
+Pipeline de datos que levanta una base de datos PostgreSQL en Docker, carga un 
+dataset real de ventas (~9.800 registros) desde un CSV y realiza consultas de 
+análisis sobre los datos.
 
-### ¿Qué hace?
-- Conecta Python con PostgreSQL mediante psycopg2
-- Crea una tabla de empleados con SQL desde Python
-- Inserta y consulta registros desde código Python
+- Conexión Python ↔ PostgreSQL con `psycopg2`
+- Creación de tablas y carga masiva desde CSV
+- Consultas de agregación (totales, medias, rankings)
 
-### 🛠️ Tecnologías
-- Python 3.13
-- PostgreSQL 18.4
-- Docker Desktop
-- psycopg2
-
-### 📁 Ficheros
-- `conexion_postgres.py` — Conexión básica y verificación de versión
-- `creacion_tablas.py` — Creación de tabla, inserción y consulta de datos
-
-### ▶️ Cómo ejecutarlo
-
-1. Levantar PostgreSQL con Docker:
-```bash
-docker run --name postgres-data -e POSTGRES_PASSWORD=admin123 -e POSTGRES_USER=admin -e POSTGRES_DB=dataengineering -p 5432:5432 -d postgres
-```
-
-2. Instalar dependencias:
-```bash
-python -m pip install psycopg2-binary
-```
-
-3. Ejecutar los scripts en orden:
-```bash
-python conexion_postgres.py
-python creacion_tablas.py
-```
+### 📚 Aprendizaje
+Ejercicios prácticos organizados por tecnología, donde voy afianzando conceptos:
+- **SQL** — consultas de agregación sobre PostgreSQL
+- **Pandas** — manipulación y análisis de datos en Python
 
 ---
 
-## 📚 Sobre mí
-- 💼 Actualmente: Packaged App Development Associate en Accenture
+## 🛠️ Tecnologías
+
+| Área | Herramientas |
+|------|-------------|
+| Lenguajes | Python, SQL |
+| Bases de datos | PostgreSQL |
+| Análisis de datos | pandas, numpy |
+| Infraestructura | Docker |
+| Control de versiones | Git, GitHub |
+
+---
+
+## 🎯 Hoja de ruta
+
+- [x] Entorno de desarrollo (Python, Docker, Git)
+- [x] Conexión Python + PostgreSQL en Docker
+- [x] ETL: carga de datos desde CSV
+- [x] Análisis de datos con pandas
+- [ ] Procesamiento distribuido con Apache Spark (PySpark)
+- [ ] Orquestación de pipelines con Apache Airflow
+- [ ] Proyecto end-to-end con datos en cloud (BigQuery)
+
+---
+
+## 📍 Sobre mí
+- 💼 Actualmente: Packaged App Development Associate
 - 🎯 Objetivo: Data Engineer
-- 🧠 Aprendiendo: Python, Docker, PostgreSQL, Apache Spark, Airflow
 - 📍 Bilbao, País Vasco
-
----
 
 ## 📬 Contacto
 - LinkedIn: https://www.linkedin.com/in/belenmariacamachoruiz/
-- GitHub: https://github.com/BelenMaria01
+- GitHub: [BelenMaria01](https://github.com/BelenMaria01)
