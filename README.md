@@ -33,13 +33,13 @@ Ejercicios prácticos organizados por tecnología, donde voy afianzando concepto
 
 | Área | Herramientas |
 |------|-------------|
-| Lenguajes | Python, SQL |
-| Bases de datos | PostgreSQL |
+| Lenguajes | Python, SQL, PL/SQL |
+| Bases de datos | PostgreSQL, Oracle |
 | Análisis de datos | pandas, numpy |
 | Infraestructura | Docker |
+| Conectividad | psycopg2 |
 | Control de versiones | Git, GitHub |
-
----
+| Editor | VS Code |
 
 ## 🎯 Hoja de ruta
 
